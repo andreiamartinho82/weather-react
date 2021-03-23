@@ -4,13 +4,9 @@ import Weather from "./Weather";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-       <h2>Stop</h2>
+    <div>
        <Weather />
-        
-      </header>
+             
     </div>
   );
 }
